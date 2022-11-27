@@ -1,0 +1,97 @@
+
+/*Reset CSS*/
+
+body, nav, ul, li, p{
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/*Style Page*/
+
+body{
+    font-family: 'JetBrains Mono', monospace;
+    color: #FFFFFF;
+
+    min-height: 100vh;
+
+    background: #2C2B3D;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav{
+    padding-top: 4.375rem;
+}
+
+nav, nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul{
+    gap: 4rem;
+    font-size: 0.875rem;
+    font-weight: normal;
+}
+
+main{
+    margin: 6.25rem 0 10rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7rem;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 2.25rem;
+    text-align: end;
+}
+
+h1 span{
+    color: #00BFA6;
+}
+
+section p{
+    font-family: 'Open Sans', sans-serif;
+    color: #C2C2C2;
+    font-size: 1rem;;
+    text-align: center;
+    line-height: 1.75rem;
+
+    margin-top: 3.75rem;
+}
+
+section p span{
+    font-weight: bold;
+    color: #00BFA6;
+}
+
+footer{
+    text-align: center;
+}
+
+footer div{
+    border: 1px solid #00BFA6;
+    max-width: 568px;
+    margin: 2rem auto;
+}
+
+
+#lock{
+    position: fixed;
+    left: 1rem;
+    bottom: 1rem;
+}
